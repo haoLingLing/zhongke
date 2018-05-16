@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>特色课程</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/luntan.css">
+	<!--<script src="js/js.js"></script>-->
+</head>
+<body>
+	<div class="top"></div>
+	<!-- 导航 -->
+	<div class="nav">
+		<span>首页</span>
+		<img src="img/jian.png" alt="">
+		<span>专家讲坛</span>
+	</div>
+        <!-- tab切换 -->
+        <div id="box">
+            <div id="head_list"">
+                <input type="button" value="tab1"  class="active"/>
+                <input type="button" value="tab2" />
+                <input type="button" value="tab3" />
+                <input type="button" value="tab4" />
+                <input type="button" value="tab5" />
+                <input type="button" value="tab6" />
+                <input type="button" value="tab7" />
+                <input type="button" value="tab8" />
+                <input type="button" value="tab9" />
+                <input type="button" value="tab10" />
+                <div class="two" style="background:#dedede;color:#000;">
+                	<img src="img/ti1.png" alt="">
+                	我的体能测试
+                </div>
+                <div class="two">
+                	<img src="img/ti2.png" alt="">
+                	明星俱乐部
+                </div>
+            </div>
+            <div id="menu_content">
+                <div class="tab" style="display:block;">
+                    <div class="tab_one" style="display:flex;justify-content:space-between;flex-wrap:wrap;">
+                    	<div class="list_1">
+                    	<img src="img/listimg.png" alt="">
+                    	<p>在线互动，首先以播放列表的形式显示在线教学状态信息，在线或不在线。在线互动，首先以播放列</p>
+                    	<p>进入直播间></p>
+                    	</div>
+                    	                    	<div class="list_1">
+                    	<img src="img/listimg.png" alt="">
+                    	<p>在线互动，首先以播放列表的形式显示在线教学状态信息，在线或不在线。在线互动，首先以播放列</p>
+                    	<p>进入直播间></p>
+                    	</div>
+                    	                    	                    	<div class="list_1">
+                    	<img src="img/listimg.png" alt="">
+                    	<p>在线互动，首先以播放列表的形式显示在线教学状态信息，在线或不在线。在线互动，首先以播放列</p>
+                    	<p>进入直播间></p>
+                    	</div>
+                    	                    	                    	<div class="list_1">
+                    	<img src="img/listimg.png" alt="">
+                    	<p>在线互动，首先以播放列表的形式显示在线教学状态信息，在线或不在线。在线互动，首先以播放列</p>
+                    	<p>进入直播间></p>
+                    	</div>
+                    </div>
+                    <div class="btn">
+                    	<span>1</span>
+                    	<span>2</span>
+                    	<span>></span>
+                    </div>
+                </div>
+                <div class="tab" style="display:none;">2</div>
+                <div class="tab" style="display:none;">3</div>
+                <div class="tab" style="display:none;">4</div>
+                <div class="tab" style="display:none;">5</div>
+                <div class="tab" style="display:none;">6</div>
+                <div class="tab" style="display:none;">7</div>
+                <div class="tab" style="display:none;">8</div>
+                <div class="tab" style="display:none;">9</div>
+                <div class="tab" style="display:none;">10</div>
+            </div>
+        </div>
+
+	
+
+
+	<div class="foot">
+		<div>
+			<p>电话：010-66886868- Office</p>
+			<p>0371-61616160 </p>
+		</div>
+		<div><p>地址：北京昌平新区商务内环众意西路，金成东方国际11号楼805室</p></div>
+		<div class="img">
+			<img src="img/bottom1.png" alt="">
+			<img src="img/bottom2.png" alt="">
+			<img src="img/bottom3.png" alt="">
+			<img src="img/bottom4.png" alt="">
+			<img src="img/bottom5.png" alt="">
+			<img src="img/bottom6.png" alt="">
+		</div>
+		<p>copyright© 2015 èxe, Design by zhongke</p>
+	</div>
+</body>
+<script>
+		var head_list = document.getElementById("head_list");
+        var menu_content = document.getElementById("menu_content");
+        var oli = head_list.getElementsByTagName("input");
+        var odiv = menu_content.getElementsByClassName("tab");
+        for(var i=0 ; i<oli.length ; i++){
+            oli[i].index = i;
+                oli[i].onclick = function( ){
+                for(var i =0; i < oli.length; i++){
+                    oli[i].className = "";
+                    odiv[i].style.display = "none";
+                }
+                this.className = "active";
+                odiv[this.index].style.display="block";
+            }
+        }
+</script>
+</html>
