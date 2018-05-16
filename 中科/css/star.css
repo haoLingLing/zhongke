@@ -1,0 +1,269 @@
+.aboutbg {
+	width: 100%;
+	height: 400px;
+}
+
+.aboutbg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.mianbao {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+
+.mianbao .mianbaocontent {
+	width: 1200px;
+	margin: 0 auto;
+	height: 75px;
+	line-height: 75px;
+	font-size: 16px;
+}
+
+.mianbao .mianbaocontent a {
+	display: inline-block;
+	height: 100%;
+	line-height: 75px;
+	letter-spacing: 2px;
+	color: #333;
+	text-decoration: none;
+}
+
+.mianbao .mianbaocontent .active {
+	color: #007AFF;
+}
+
+.mianbao .mianbaocontent .input {
+	display: inline-block;
+	float: right;
+	box-sizing: border-box;
+	padding-top: 22px;
+}
+
+.mianbao .mianbaocontent .input input {
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	vertical-align: top;
+}
+
+.mianbao .mianbaocontent .input span {
+	display: inline-block;
+	width: 35px;
+	height: 30px;
+	padding-top: 5px;
+	vertical-align: top;
+	margin-left: 10px;
+	background: #0071EC;
+}
+
+.mianbao .mianbaocontent .input img {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+.star {
+	width: 100%;
+}
+
+.star .list {
+	box-sizing: border-box;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #eee;
+	height: 500px;
+}
+
+.star .list .listcontent {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.star .list .listcontent .left {
+	display: inline-block;
+	width: 550px;
+	float: left;
+}
+
+.star .list .listcontent .left img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.star .list .listcontent .right {
+	display: inline-block;
+	width: 650px;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 50px;
+}
+
+.star .list .listcontent .right h3 {
+	color: #131313;
+	font-size: 24px;
+	line-height: 50px;
+	margin: 0;
+}
+
+.star .list .listcontent .right p {
+	font-size: 14px;
+	line-height: 50px;
+	margin: 0;
+	letter-spacing: 2px;
+}
+
+.star .list .listcontent .right p span {
+	color: #003afe;
+}
+
+.star .list .listcontent .right .text {
+	font-size: 16px;
+	color: #737373;
+	line-height: 25px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.star .list .listcontent .right .xian {
+	height: 50px;
+	width: 100%;
+}
+
+.star .list .listcontent .right .xian div {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	color: #313131;
+	letter-spacing: 2px;
+}
+
+.star .list .listcontent .right .btn {
+	box-sizing: border-box;
+	padding-top: 20px;
+}
+
+.star .list .listcontent .right .btn button {
+	width: 160px;
+	height: 45px;
+	background: #fff;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	margin-right: 70px;
+}
+
+.star {
+	width: 100%;
+}
+
+.star .lists {
+	box-sizing: border-box;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #eee;
+	height: 500px;
+}
+
+.star .lists .listcontent {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.star .lists .listcontent .right {
+	display: inline-block;
+	width: 650px;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 40px;
+	padding-right: 50px;
+}
+
+.star .lists .listcontent .left {
+	display: inline-block;
+	width: 550px;
+	float: right;
+}
+
+.star .lists .listcontent .left img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.star .lists .listcontent .right h3 {
+	color: #131313;
+	font-size: 24px;
+	line-height: 50px;
+	margin: 0;
+	text-align: right;
+}
+
+.star .lists .listcontent .right p {
+	font-size: 14px;
+	line-height: 50px;
+	margin: 0;
+	letter-spacing: 2px;
+	text-align: right;
+}
+
+.star .lists .listcontent .right p span {
+	color: #003afe;
+}
+
+.star .lists .listcontent .right .text {
+	font-size: 16px;
+	color: #737373;
+	line-height: 25px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+.star .lists .listcontent .right .xian {
+	height: 50px;
+	width: 100%;
+}
+
+.star .lists .listcontent .right .xian div {
+	display: inline-block;
+	width: 50%;
+	float: left;
+	font-size: 16px;
+	color: #313131;
+	letter-spacing: 2px;
+}
+
+.star .lists .listcontent .right .btn {
+	box-sizing: border-box;
+	padding-top: 20px;
+	text-align: right;
+}
+
+.star .lists .listcontent .right .btn button {
+	width: 160px;
+	height: 45px;
+	background: #fff;
+	border: 1px solid #eee;
+	box-sizing: border-box;
+	margin-left: 70px;
+}
+.star .shu{
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.star .shu span{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #eee;
+	margin: 0 20px;
+}

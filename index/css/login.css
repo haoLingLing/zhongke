@@ -1,0 +1,21 @@
+body{width:100%;background:url('../img/login_bg.png') no-repeat;background-size:100% 100%;}
+
+.login{width:14.75rem;height:22.25rem;background:#fff;border-radius:0.5rem;position:absolute;margin:auto;left:0;right:0;top:50%;transform: translateY(-50%);}
+.login>p{line-height:4.0rem;border-bottom:0.1rem solid #dddddd;text-align: center;font-size:0.9rem;color:#0fa6d8;}
+.logo{text-align:center;margin-top:0.65rem;}
+.logo img{width:3.5rem;height:3.5rem;text-align:center;}
+.logo p{font-size:0.8rem;color:#0fa6d8;line-height:2.0rem;}
+
+.inp{padding:0 1.5rem;}
+.inp div{margin-top:1.375rem;position:relative;}
+.inp div input{width:100%;height:1.75rem;border:0.05rem solid #ddd;border-radius:0.5rem;padding-left:1.75rem;}
+.inp div img{position:absolute;width:0.8rem;height:1.0rem;top: 50%;transform: translateY(-50%);left:0.75rem;}
+.inp p{line-height:2.25rem;text-align:right;font-size:0.55rem;color:#333333;}
+.btn{width:100%;height:1.35rem;background:#3fb8e0;text-align:center;line-height:1.35rem;color:#fff;font-size:0.75rem;}
+
+.foot{position:absolute;bottom:1.0rem;width:100%;display:flex;justify-content:space-between;padding:0 0.5rem;}
+.one{display:flex;}
+.one div:first-child{width:1.125rem;height:1.125rem;padding-right:0.1rem;}
+.one div:last-child{flex:1;padding-left:0.1rem;border-left:0.05rem solid #ddd;}
+.one div p{font-size:0.35rem; color:#ececec;}
+.one div img{width:100%;height:100%;}

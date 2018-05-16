@@ -1,0 +1,118 @@
+.aboutbg {
+	width: 100%;
+	height: 400px;
+}
+
+.aboutbg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.mianbao {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+
+.mianbao .mianbaocontent {
+	width: 1200px;
+	margin: 0 auto;
+	height: 75px;
+	line-height: 75px;
+	font-size: 16px;
+}
+
+.mianbao .mianbaocontent a {
+	display: inline-block;
+	height: 100%;
+	line-height: 75px;
+	letter-spacing: 2px;
+	color: #333;
+	text-decoration: none;
+}
+
+.mianbao .mianbaocontent .active {
+	color: #007AFF;
+}
+
+.main {
+	width: 100%;
+	box-sizing: border-box;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+.main .maincontent {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main .maincontent .left {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+
+.main .maincontent .list div {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	border: 1px solid #eee;
+	background: #faf8f8;
+}
+
+.main .maincontent .list {
+	box-sizing: border-box;
+	margin-bottom: 5px;
+}
+
+.main .maincontent .list ul.active {
+	display: block;
+}
+
+.main .maincontent ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main .maincontent ul li {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	background: #faf8f8;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.main .maincontent ul li.active {
+	background: #007AFF;
+	color: #fff;
+}
+
+.main .maincontent .right {
+	display: inline-block;
+	width: 950px;
+	float: right;
+}
+
+.main .maincontent .right h3 {
+	font-size: 26px;
+	line-height: 50px;
+}
+
+.main .maincontent .right p {
+	font-size: 18px;
+	line-height: 25px;
+	color: #1b1b1b;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	letter-spacing: 2px;
+	padding-right: 50px;
+}

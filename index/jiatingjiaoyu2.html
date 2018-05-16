@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>家庭教育2</title>
+	<link rel="stylesheet" href="css/style/common.css">
+	<link rel="stylesheet" href="css/jiatingjiaoyu2.css">
+	<script src="js/js.js"></script>
+</head>
+<body>
+	<div class="top"></div>
+	<!-- 导航 -->
+	<div class="nav">
+		<span>首页</span>
+		<img src="img/jian.png" alt="">
+		<span>家庭教育</span>
+		<img src="img/jian.png" alt="">
+		<span>快乐成长</span>
+	</div>
+
+	<!-- 教育1 -->
+	<div class="jiaoyu_one">
+		<p class="top1">快乐成长</p>
+		<div class="xian"></div>
+		<div class="one_img">
+			<img src="img/listimg.png" alt="">
+			<img src="img/listimg.png" alt="">
+			<img src="img/listimg.png" alt="">
+		</div>
+		<p class="one_zi">智能体育产业以高端制造业为基础，是集合体育、科技、文化、生产、消费、金融等内容的高关联、生态型的新型产业。本次大会以“智能体育”为主题，统筹智能体育的发展规划，搭建线上线下互动平台、产学研一体<span>[详细]</span></p>
+	</div>
+	<div class="oneimg">
+		<img src="img/jiaoyu_img.png" alt="">
+	</div>
+	<!-- tab -->
+        <!-- tab切换 -->
+        <div id="box">
+            <div id="head_list"">
+                <input type="button" value="tab1"  class="active"/>
+                <input type="button" value="tab2" />
+                <input type="button" value="tab3" />
+                <input type="button" value="tab4" />
+            </div>
+            <div id="menu_content">
+                <div class="tab" style="display:block;">
+                    <img src="img/listimg.png" alt="">
+                    <p class="one_zi">不过，智能体育产业目前还面对缺乏行业标准、技术不够完善、用户习惯尚未形成等问题不过，智能体育产业目前还面对缺乏行业标准、技术不够完善、用户习惯尚未形成等问题不过…<span>[详细]</span></p>
+                </div>
+                <div class="tab" style="display:none;">2</div>
+                <div class="tab" style="display:none;">3</div>
+                <div class="tab" style="display:none;">4</div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+	<div class="foot">
+		<div>
+			<p>电话：010-66886868- Office</p>
+			<p>0371-61616160 </p>
+		</div>
+		<div><p>地址：北京昌平新区商务内环众意西路，金成东方国际11号楼805室</p></div>
+		<div class="img">
+			<img src="img/bottom1.png" alt="">
+			<img src="img/bottom2.png" alt="">
+			<img src="img/bottom3.png" alt="">
+			<img src="img/bottom4.png" alt="">
+			<img src="img/bottom5.png" alt="">
+			<img src="img/bottom6.png" alt="">
+		</div>
+		<p>copyright© 2015 èxe, Design by zhongke</p>
+	</div>
+</body>
+<script>
+	 var head_list = document.getElementById("head_list");
+            var menu_content = document.getElementById("menu_content");
+            var oli = head_list.getElementsByTagName("input");//获取tab列表
+            var odiv = menu_content.getElementsByClassName("tab");//获取tab内容列表
+            for(var i=0 ; i<oli.length ; i++){
+                oli[i].index = i;//定义index变量，以便让tab按钮和tab内容相互对应
+                    oli[i].onclick = function( ){//移除全部tab样式和tab内容
+                    for(var i =0; i < oli.length; i++){
+                        oli[i].className = "";
+                        odiv[i].style.display = "none";
+                    }
+                    this.className = "active";//为当前tab添加样式
+                    odiv[this.index].style.display="block";//显示当前tab对应的内容
+                }
+            }
+
+            	
+</script>
+</html>

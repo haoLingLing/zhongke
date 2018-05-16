@@ -1,0 +1,78 @@
+.body {
+	width: 100vw;
+	height: 100vh;
+	background: url(../img/banner.png) no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	padding-top: 120px;
+}
+
+.form {
+	width: 300px;
+	height: 450px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.title {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 24px;
+	color: #0fa6d8;
+	letter-spacing: 5px;
+	border-bottom: 1px solid rgba(188, 188, 188, 0.5);
+}
+
+.logo {
+	display: block;
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+}
+
+.name {
+	font-size: 22px;
+	text-align: center;
+	color: #0fa6d8;
+	line-height: 30px;
+}
+
+.input {
+	width: 237px;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.input input {
+	width: 100%;
+	height: 35px;
+	border-radius: 8px;
+	border: 1px solid #007AFF;
+	box-sizing: border-box;
+	padding-left: 35px;
+	font-size: 15px;
+	color: #76768f;
+}
+
+.input img {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 5px;
+	left: 5px;
+}
+
+button {
+	display: block;
+	width: 237px;
+	height: 35px;
+	margin: 0 auto;
+	font-size: 16px;
+	background: #007AFF;
+	border-radius: 7px;
+	border: none;
+	color: #fff;
+	letter-spacing: 7px;
+}

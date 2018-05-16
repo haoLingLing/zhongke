@@ -1,0 +1,161 @@
+.aboutbg {
+	width: 100%;
+	height: 400px;
+}
+
+.aboutbg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.mianbao {
+	width: 100%;
+	border-bottom: 1px solid #eee;
+}
+
+.mianbao .mianbaocontent {
+	width: 1200px;
+	margin: 0 auto;
+	height: 75px;
+	line-height: 75px;
+	font-size: 16px;
+}
+
+.mianbao .mianbaocontent a {
+	display: inline-block;
+	height: 100%;
+	line-height: 75px;
+	letter-spacing: 2px;
+	color: #333;
+	text-decoration: none;
+}
+
+.mianbao .mianbaocontent .active {
+	color: #007AFF;
+}
+
+.wu {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.wu .wucenter .list {
+	width: 100%;
+	min-height: 350px;
+}
+
+.wu .wucenter .one {
+	background: #fcfcfc;
+}
+
+.wu .wucenter .two {
+	background: #fff;
+}
+
+.wu .wucenter .list .listcontent {
+	width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.wu .wucenter .list .listcontent .left {
+	width: 450px;
+	display: inline-block;
+	float: left;
+	height: 275px;
+}
+
+.wu .wucenter .list .listcontent .left img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.wu .wucenter .list .listcontent .right {
+	width: 750px;
+	display: inline-block;
+	/*float: left;*/
+	clear: both;
+	box-sizing: border-box;
+	padding-left: 50px;
+}
+
+.wu .wucenter .list .listcontent .right h3 {
+	font-size: 26px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 2px;
+}
+
+.wu .wucenter .list .listcontent .right p {
+	font-size: 18px;
+	line-height: 35px;
+	letter-spacing: 2px;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+	position: relative;
+}
+
+.wu .wucenter .one .listcontent .right p span {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #0071EC;
+	line-height: 25px;
+	background: #fcfcfc;
+}
+
+.wu .wucenter .two .listcontent .right p span {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #0071EC;
+	line-height: 25px;
+	background: #fff;
+}
+
+.wu .wucenter .list .listcontent .right button {
+	width: 125px;
+	height: 45px;
+	border-radius: 8px;
+	border: none;
+	background: rgba(201, 201, 201, 0.38);
+	color: #0071ec;
+	font-size: 18px;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+
+.wu .page {
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.wu .page span {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 20px;
+	border: 1px solid #eee;
+}
+
+.wu .page .active {
+	background: #0071EC;
+	color: #fff;
+}

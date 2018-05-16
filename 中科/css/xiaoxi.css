@@ -1,0 +1,74 @@
+body {
+	background: #f7f7f7;
+}
+
+.xiaoxi {
+	width: 100%;
+	background: #f7f7f7;
+}
+
+.xiaoxi .xiaoxicontent {
+	width: 1200px;
+	box-sizing: border-box;
+	margin: 50px auto;
+	background: #fff;
+	padding: 60px;
+}
+
+.xiaoxi .xiaoxicontent .header{
+	box-sizing: border-box;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #eee;
+}
+
+.xiaoxi .xiaoxicontent h2 {
+	font-size: 28px;
+	color: #696060;
+	text-align: center;	
+	letter-spacing: 2px;
+	line-height: 50px;
+}
+
+.xiaoxi .xiaoxicontent p {
+	width: 100%;
+	line-height: 40px;
+	box-sizing: border-box;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.xiaoxi .xiaoxicontent p span {
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: 50px;
+	color: #0a54a7;
+}
+.xiaoxi .xiaoxicontent .bodyer{
+	box-sizing: border-box;
+	padding: 60px;
+	border-bottom: 1px solid #eee;
+}
+.xiaoxi .xiaoxicontent .bodyer p{
+	font-size: 22px;
+	color: #616161;
+	text-align: left;
+	line-height: 45px;
+}
+.xiaoxi .xiaoxicontent .bodyer .text{
+	text-indent: 2em;
+}
+.xiaoxi .xiaoxicontent .footer{
+	width: 100%;
+	text-align: center;
+}
+.xiaoxi .xiaoxicontent .footer div{
+	display: inline-block;
+	width: 530px;
+	line-height: 100px;
+	font-size: 19px;
+	color: #676161;
+}
+.xiaoxi .xiaoxicontent .footer div a{
+	color: #676161;
+}

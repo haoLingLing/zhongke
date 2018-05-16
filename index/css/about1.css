@@ -1,0 +1,81 @@
+.top{background:url(../img/top_bg.png) no-repeat;background-size:100% 100%;width:100%;height:4.0rem;}
+.nav{width:100%;height:1.5rem;background:#fff;padding:0 1rem;line-height:1.5rem;font-size:0.65rem;}
+.nav span:last-child{color:#167ceb;}
+.nav img{width:0.5rem;}
+
+.foot{height:5rem;background:#111111;padding:0 1.0rem;}
+.foot>p{color:#fff;font-size:0.4rem;text-align:center;}
+.foot div p{color:#fff;font-size:0.5rem;}
+.foot div:nth-child(1){padding-top:0.75rem;}
+.img{display:flex;justify-content:center;margin:0.25rem 0;}
+.img img{width:1.0rem;height:1.0rem;margin:0 0.125rem;}
+
+.about_img img{width:8rem;height:4rem;}
+
+
+
+.about_3{margin-top:0.5rem;}
+.zhi_span{text-align:center;margin:0.5rem 0 0.75rem 0;}
+.zhi_span span{border:0.05rem solid #ccc;padding:0.125rem 0.25rem;}
+.zhi_span span:nth-child(2){background:#1987ff;color:#fff;}
+.zi p{font-size:0.2rem;text-indent:2em;}
+.zi{padding:0 0.5rem;}
+
+
+.btn1{text-align:right;padding:0 0.5rem;margin:0.75rem 0;}
+.btn1 span{display:inline-block;width:1.25rem;height:1.25rem;text-align:center;line-height:1.25rem;border:0.03rem solid #ccc;border-radius:0.25rem;color:#000;}
+.btn1 span:nth-child(1){background:#007aff;color:#fff;border:none;}
+
+
+
+
+	/*简单粗暴重置默认样式===============================*/
+
+		.treebox{display:flex;}
+		.menu{ overflow: hidden; border-color: #ddd; border-style: solid ; border-width: 0 1px 1px ; width:30%;background:#dedede;}
+		/*第一层*/
+		.menu li.level1>a{ 
+			display:block;
+			height: 45px;
+			line-height: 45px;
+			color: #000;
+			padding-left:0.5rem;
+			border-bottom: 1px solid #000; 
+			font-size:0.8rem;
+			position: relative;
+			transition:all .5s ease 0s;
+		 }
+		 .menu li.level1 a:hover{ text-decoration: none; }
+		
+
+		/*============修饰图标*/
+		 .ico{ width: 20px; height: 20px; display:block;   position: absolute; left: 20px; top: 10px; background-repeat: no-repeat; }
+
+		 /*============小箭头*/
+		 .level1 i{ width: 20px; height: 10px; background-image:url(../img/arrow.png); background-repeat: no-repeat; display: block; position: absolute; right: 20px; top: 20px; }
+		.level1 i.down{ background-position: 0 -10px; }
+
+		 .ico1{ background-position: 0 0; }
+		 .ico2{ background-position: 0 -20px; }
+		 .ico3{ background-position: 0 -40px; }
+		 .ico4{ background-position: 0 -60px; }
+                 .ico5{ background-position: 0 -80px; }
+
+		 /*第二层*/
+		 .menu li ul{ overflow: hidden; }
+		 .menu li ul.level2{ display: none;  }
+		 .menu li ul.level2 li a{
+		 	display: block;
+			height: 45px;
+			line-height: 45px;
+			color: #000;
+			text-indent:2em;
+			/*border-bottom: 1px solid #ddd; */
+			font-size:0.6rem;
+			 transition:all 1s ease 0s;
+		 }
+		 .qwe{flex:1;}
+		 .qwe{
+		 	font-size:0.8rem;
+		 	padding:0 0.5rem;
+		 }

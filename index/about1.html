@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>关于我们</title>
+	<link rel="stylesheet" href="css/style/common.css">
+	<link rel="stylesheet" href="css/about1.css">
+	<script src="js/jquery1.8.3.min.js"></script>
+	<script src="js/easing.js"></script>
+</head>
+<body>
+	<div class="top"></div>
+	<!-- 导航 -->
+	<div class="nav">
+		<span>首页</span>
+		<img src="img/jian.png" alt="">
+		<span>关于我们</span>
+		<img src="img/jian.png" alt="">
+		<span>公司概况</span>
+	</div>
+	<div class="about_img">
+		<img src="img/listimg.png" alt="">
+	</div>
+
+	<div class="treebox">
+		<ul class="menu">
+			<li class="level1">
+				<a href="#none"><em class="ico ico1"></em>公司概况<i class="down"></i></a>
+				<ul class="level2">
+					<li><a href="javascript:;">公司简介</a></li>
+					<li><a href="javascript:;">公司组织架构</a></li>
+					<li><a href="javascript:;">下属加盟</a></li>
+					<li><a href="javascript:;">部门职责</a></li>
+					<li><a href="javascript:;">业务状况</a></li>
+					<li><a href="javascript:;">战略规划</a></li>
+					<li><a href="javascript:;">公司荣誉</a></li>
+				</ul>
+			</li>
+			<li class="level1">
+				<a href="#none"><em class="ico ico2"></em>新智能体育教育<i></i></a>
+				<ul class="level2">
+					<li><a href="javascript:;">导航选项</a></li>
+					<li><a href="javascript:;">导航选项</a></li>
+					<li><a href="javascript:;">导航选项</a></li>
+					<li><a href="javascript:;">导航选项</a></li>
+				</ul>
+			</li>
+			<li class="level1">
+				<a href="#none"><em class="ico ico3"></em>联系我们<i></i></a>
+				<ul class="level2">
+					<li><a href="javascript:;">导航选项</a></li>
+					<li><a href="javascript:;">导航选项</a></li>
+					<li><a href="javascript:;">导航选项</a></li>
+					<li><a href="javascript:;">导航选项</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div class="qwe">
+			<p>
+				2017对于led显示屏产业来讲是充满变数的一年，但从行业发展的热点趋势来看，或将要在2018年迎来新的转变。目前，在技术升级、市场驱动等多方驱动下，国内led显示屏行业似乎正在迎来更多意想不到的新机遇。
+　　更值得一提的是，近年来，随着物联网、智慧城市等新概念的注入，整个led显示屏产业都在朝着智能化不断聚变。智能显示已经慢慢渗透到了传统L户外led大屏幕市场、租赁、控制室、商显等新兴细分领域，产品覆盖了常规屏、小间距、透明屏、超精密间距等多种，不仅能够更好满足用户最基本的应用需求，同时能为用户带来诸多意想不到的便利，甚至更能与使用者建立起某种情感上的联系，因此受到市场的热烈追捧。今天我们就从LED显示产业最佳最佳领域——体育板块，来谈谈智能化led显示屏具体亮点。
+			</p>
+		</div>
+	</div>
+
+	
+	
+
+
+	<div class="foot">
+		<div>
+			<p>电话：010-66886868- Office</p>
+			<p>0371-61616160 </p>
+		</div>
+		<div><p>地址：北京昌平新区商务内环众意西路，金成东方国际11号楼805室</p></div>
+		<div class="img">
+			<img src="img/bottom1.png" alt="">
+			<img src="img/bottom2.png" alt="">
+			<img src="img/bottom3.png" alt="">
+			<img src="img/bottom4.png" alt="">
+			<img src="img/bottom5.png" alt="">
+			<img src="img/bottom6.png" alt="">
+		</div>
+		<p>copyright© 2015 èxe, Design by zhongke</p>
+	</div>
+</body>
+<script>
+		$(function(){
+		$(".treebox .level1>a").click(function(){
+			$(this).addClass('current')   //给当前元素添加"current"样式
+			.find('i').addClass('down')   //小箭头向下样式
+			.parent().next().slideDown('slow','easeOutQuad')  //下一个元素显示
+			.parent().siblings().children('a').removeClass('current')//父元素的兄弟元素的子元素去除"current"样式
+			.find('i').removeClass('down').parent().next().slideUp('slow','easeOutQuad');//隐藏
+			 return false; //阻止默认时间
+		});
+	})
+</script>
+</html>
